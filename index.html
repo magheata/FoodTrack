@@ -9,7 +9,7 @@
     <meta content="" name="description">
     <meta content="" name="author">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Foodtrack - Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -64,7 +64,6 @@
             </a>
             <div aria-labelledby="headingTwo" class="collapse" data-parent="#accordionSidebar" id="collapseTwo">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">COMIDA</h6>
                     <a class="collapse-item" href="nevera.html">Nevera</a>
                     <a class="collapse-item" href="congelador.html">Congelador</a>
                 </div>
@@ -87,50 +86,6 @@
                 </div>
             </div>
         </li>
-
-        <!-- Divider -->
-<!--        <hr class="sidebar-divider">-->
-
-<!--        &lt;!&ndash; Heading &ndash;&gt;-->
-<!--        <div class="sidebar-heading">-->
-<!--            Addons-->
-<!--        </div>-->
-
-<!--        &lt;!&ndash; Nav Item - Pages Collapse Menu &ndash;&gt;-->
-<!--        <li class="nav-item">-->
-<!--            <a aria-controls="collapsePages" aria-expanded="true" class="nav-link collapsed"-->
-<!--               data-target="#collapsePages"-->
-<!--               data-toggle="collapse" href="#">-->
-<!--                <i class="fas fa-fw fa-folder"></i>-->
-<!--                <span>Pages</span>-->
-<!--            </a>-->
-<!--            <div aria-labelledby="headingPages" class="collapse" data-parent="#accordionSidebar" id="collapsePages">-->
-<!--                <div class="bg-white py-2 collapse-inner rounded">-->
-<!--                    <h6 class="collapse-header">Login Screens:</h6>-->
-<!--                    <a class="collapse-item">Login</a>-->
-<!--                    <a class="collapse-item">Register</a>-->
-<!--                    <a class="collapse-item">Forgot Password</a>-->
-<!--                    <div class="collapse-divider"></div>-->
-<!--                    <h6 class="collapse-header">Other Pages:</h6>-->
-<!--                    <a class="collapse-item">404 Page</a>-->
-<!--                    <a class="collapse-item">Blank Page</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-
-<!--        &lt;!&ndash; Nav Item - Charts &ndash;&gt;-->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link" href="charts.html">-->
-<!--                <i class="fas fa-fw fa-chart-area"></i>-->
-<!--                <span>Charts</span></a>-->
-<!--        </li>-->
-
-<!--        &lt;!&ndash; Nav Item - Tables &ndash;&gt;-->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link" href="nevera.html">-->
-<!--                <i class="fas fa-fw fa-table"></i>-->
-<!--                <span>Tables</span></a>-->
-<!--        </li>-->
 
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
@@ -162,7 +117,7 @@
                     <div class="input-group">
                         <input aria-describedby="basic-addon2" aria-label="Search"
                                class="form-control bg-light border-0 small"
-                               placeholder="Search for..." type="text">
+                               placeholder="Buscar..." type="text">
                         <div class="input-group-append">
                             <button class="btn btn-primary" type="button">
                                 <i class="fas fa-search fa-sm"></i>
@@ -187,7 +142,7 @@
                             <form class="form-inline mr-auto w-100 navbar-search">
                                 <div class="input-group">
                                     <input aria-describedby="basic-addon2" aria-label="Search"
-                                           class="form-control bg-light border-0 small" placeholder="Search for..."
+                                           class="form-control bg-light border-0 small" placeholder="Buscar..."
                                            type="text">
                                     <div class="input-group-append">
                                         <button class="btn btn-primary" type="button">
@@ -206,23 +161,23 @@
                            href="#" id="alertsDropdown" role="button">
                             <i class="fas fa-bell fa-fw"></i>
                             <!-- Counter - Alerts -->
-                            <span class="badge badge-danger badge-counter">3+</span>
+                            <span class="badge badge-danger badge-counter">3</span>
                         </a>
                         <!-- Dropdown - Alerts -->
                         <div aria-labelledby="alertsDropdown"
                              class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in">
                             <h6 class="dropdown-header">
-                                Alerts Center
+                                Notificaciones
                             </h6>
                             <a class="dropdown-item d-flex align-items-center" href="#">
                                 <div class="mr-3">
                                     <div class="icon-circle bg-primary">
-                                        <i class="fas fa-file-alt text-white"></i>
+                                        <i class="fas fa-calendar-alt text-white"></i>
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="small text-gray-500">December 12, 2019</div>
-                                    <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                                    <div class="small text-gray-500">30 de Diciembre de 2020</div>
+                                    <span class="font-weight-bold">¡Hay un producto en la nevera a punto de caducar!</span>
                                 </div>
                             </a>
                             <a class="dropdown-item d-flex align-items-center" href="#">
@@ -232,8 +187,8 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="small text-gray-500">December 7, 2019</div>
-                                    $290.29 has been deposited into your account!
+                                    <div class="small text-gray-500">18 de Diciembre de 2020</div>
+                                    <span class="font-weight-bold">¡Un producto ha bajado de precio!</span>
                                 </div>
                             </a>
                             <a class="dropdown-item d-flex align-items-center" href="#">
@@ -243,86 +198,11 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="small text-gray-500">December 2, 2019</div>
-                                    Spending Alert: We've noticed unusually high spending for your account.
+                                    <div class="small text-gray-500">10 de Diciembre de 2020</div>
+                                    <span class="font-weight-bold">¡Estás consumiendo mucho azúcar últimamente! ¡Contrólate un poco!</span>
                                 </div>
                             </a>
-                            <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
-                        </div>
-                    </li>
-
-                    <!-- Nav Item - Messages -->
-                    <li class="nav-item dropdown no-arrow mx-1">
-                        <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
-                           data-toggle="dropdown"
-                           href="#" id="messagesDropdown" role="button">
-                            <i class="fas fa-envelope fa-fw"></i>
-                            <!-- Counter - Messages -->
-                            <span class="badge badge-danger badge-counter">7</span>
-                        </a>
-                        <!-- Dropdown - Messages -->
-                        <div aria-labelledby="messagesDropdown"
-                             class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in">
-                            <h6 class="dropdown-header">
-                                Message Center
-                            </h6>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image mr-3">
-                                    <img alt="" class="rounded-circle"
-                                         src="https://source.unsplash.com/fn_BT9fwg_E/60x60">
-                                    <div class="status-indicator bg-success"></div>
-                                </div>
-                                <div class="font-weight-bold">
-                                    <div class="text-truncate">Hi there! I am wondering if you can help me with a
-                                        problem I've been
-                                        having.
-                                    </div>
-                                    <div class="small text-gray-500">Emily Fowler · 58m</div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image mr-3">
-                                    <img alt="" class="rounded-circle"
-                                         src="https://source.unsplash.com/AU4VPcFN4LE/60x60">
-                                    <div class="status-indicator"></div>
-                                </div>
-                                <div>
-                                    <div class="text-truncate">I have the photos that you ordered last month, how would
-                                        you like them sent
-                                        to you?
-                                    </div>
-                                    <div class="small text-gray-500">Jae Chun · 1d</div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image mr-3">
-                                    <img alt="" class="rounded-circle"
-                                         src="https://source.unsplash.com/CS2uCrpNzJY/60x60">
-                                    <div class="status-indicator bg-warning"></div>
-                                </div>
-                                <div>
-                                    <div class="text-truncate">Last month's report looks great, I am very happy with the
-                                        progress so far,
-                                        keep up the good work!
-                                    </div>
-                                    <div class="small text-gray-500">Morgan Alvarez · 2d</div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image mr-3">
-                                    <img alt="" class="rounded-circle"
-                                         src="https://source.unsplash.com/Mv9hjnEUHR4/60x60">
-                                    <div class="status-indicator bg-success"></div>
-                                </div>
-                                <div>
-                                    <div class="text-truncate">Am I a good boy? The reason I ask is because someone told
-                                        me that people
-                                        say this to all dogs, even if they aren't good...
-                                    </div>
-                                    <div class="small text-gray-500">Chicken the Dog · 2w</div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                            <a class="dropdown-item text-center small text-gray-500" href="#">Ver todo</a>
                         </div>
                     </li>
 
@@ -333,7 +213,7 @@
                         <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
                            data-toggle="dropdown"
                            href="#" id="userDropdown" role="button">
-                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
+                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Andreea Miruna</span>
                             <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
                         </a>
                         <!-- Dropdown - User Information -->
@@ -341,20 +221,20 @@
                              class="dropdown-menu dropdown-menu-right shadow animated--grow-in">
                             <a class="dropdown-item" href="#">
                                 <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Profile
+                                Perfil
                             </a>
                             <a class="dropdown-item" href="#">
                                 <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Settings
+                                Configuración
                             </a>
                             <a class="dropdown-item" href="#">
                                 <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Activity Log
+                                Registro de consumo
                             </a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" data-target="#logoutModal" data-toggle="modal" href="#">
                                 <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                Logout
+                                Cerrar sesión
                             </a>
                         </div>
                     </li>
@@ -371,7 +251,7 @@
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                     <a class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" href="#"><i
-                            class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                            class="fas fa-download fa-sm text-white-50"></i> Generar PDF</a>
                 </div>
 
                 <!-- Content Row -->
@@ -383,13 +263,12 @@
                             <div class="card-body">
                                 <div class="row no-gutters align-items-center">
                                     <div class="col mr-2">
-                                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Earnings
-                                            (Monthly)
+                                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Gasto semanal
                                         </div>
-                                        <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">62,35 €</div>
                                     </div>
                                     <div class="col-auto">
-                                        <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                        <i class="fas fa-euro-sign fa-2x text-gray-300"></i>
                                     </div>
                                 </div>
                             </div>
@@ -402,13 +281,12 @@
                             <div class="card-body">
                                 <div class="row no-gutters align-items-center">
                                     <div class="col mr-2">
-                                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Earnings
-                                            (Annual)
+                                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Gasto mensual
                                         </div>
-                                        <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">103,28 €</div>
                                     </div>
                                     <div class="col-auto">
-                                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        <i class="fas fa-calendar fa-2x text-gray-300"></i>
                                     </div>
                                 </div>
                             </div>
@@ -421,7 +299,7 @@
                             <div class="card-body">
                                 <div class="row no-gutters align-items-center">
                                     <div class="col mr-2">
-                                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks</div>
+                                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Consumido</div>
                                         <div class="row no-gutters align-items-center">
                                             <div class="col-auto">
                                                 <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
@@ -449,13 +327,12 @@
                             <div class="card-body">
                                 <div class="row no-gutters align-items-center">
                                     <div class="col mr-2">
-                                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending
-                                            Requests
+                                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Alimentos en la nevera
                                         </div>
-                                        <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray-800">19</div>
                                     </div>
                                     <div class="col-auto">
-                                        <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                        <i class="fas fa-utensils fa-2x text-gray-300"></i>
                                     </div>
                                 </div>
                             </div>
@@ -472,7 +349,7 @@
                         <div class="card shadow mb-4">
                             <!-- Card Header - Dropdown -->
                             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Gastos</h6>
                                 <div class="dropdown no-arrow">
                                     <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle"
                                        data-toggle="dropdown" href="#"
@@ -481,11 +358,8 @@
                                     </a>
                                     <div aria-labelledby="dropdownMenuLink"
                                          class="dropdown-menu dropdown-menu-right shadow animated--fade-in">
-                                        <div class="dropdown-header">Dropdown Header:</div>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="#">Por semanas</a>
+                                        <a class="dropdown-item" href="#">Por meses</a>
                                     </div>
                                 </div>
                             </div>
@@ -503,7 +377,7 @@
                         <div class="card shadow mb-4">
                             <!-- Card Header - Dropdown -->
                             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Consumo nutricional</h6>
                                 <div class="dropdown no-arrow">
                                     <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle"
                                        data-toggle="dropdown" href="#"
@@ -512,11 +386,8 @@
                                     </a>
                                     <div aria-labelledby="dropdownMenuLink"
                                          class="dropdown-menu dropdown-menu-right shadow animated--fade-in">
-                                        <div class="dropdown-header">Dropdown Header:</div>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="#">Semanal</a>
+                                        <a class="dropdown-item" href="#">Mensual</a>
                                     </div>
                                 </div>
                             </div>
@@ -527,13 +398,13 @@
                                 </div>
                                 <div class="mt-4 text-center small">
                     <span class="mr-2">
-                      <i class="fas fa-circle text-primary"></i> Direct
+                      <i class="fas fa-circle text-primary"></i> Azúcar
                     </span>
                                     <span class="mr-2">
-                      <i class="fas fa-circle text-success"></i> Social
+                      <i class="fas fa-circle text-success"></i> Hidratos de carbono
                     </span>
                                     <span class="mr-2">
-                      <i class="fas fa-circle text-info"></i> Referral
+                      <i class="fas fa-circle text-info"></i> Proteínas
                     </span>
                                 </div>
                             </div>
@@ -550,95 +421,43 @@
                         <!-- Project Card Example -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Productos consumidos</h6>
                             </div>
                             <div class="card-body">
-                                <h4 class="small font-weight-bold">Server Migration <span class="float-right">20%</span>
+                                <h4 class="small font-weight-bold">Carne <span class="float-right">25%</span>
                                 </h4>
                                 <div class="progress mb-4">
-                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="20"
+                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25"
                                          class="progress-bar bg-danger"
-                                         role="progressbar" style="width: 20%"></div>
+                                         role="progressbar" style="width: 25%"></div>
                                 </div>
-                                <h4 class="small font-weight-bold">Sales Tracking <span class="float-right">40%</span>
+                                <h4 class="small font-weight-bold">Pescado <span class="float-right">15%</span>
                                 </h4>
                                 <div class="progress mb-4">
-                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="40"
+                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="15"
                                          class="progress-bar bg-warning"
-                                         role="progressbar" style="width: 40%"></div>
+                                         role="progressbar" style="width: 15%"></div>
                                 </div>
-                                <h4 class="small font-weight-bold">Customer Database <span
-                                        class="float-right">60%</span></h4>
+                                <h4 class="small font-weight-bold">Frutas <span
+                                        class="float-right">20%</span></h4>
                                 <div class="progress mb-4">
-                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" class="progress-bar"
+                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="20" class="progress-bar"
                                          role="progressbar"
-                                         style="width: 60%"></div>
+                                         style="width: 20%"></div>
                                 </div>
-                                <h4 class="small font-weight-bold">Payout Details <span class="float-right">80%</span>
+                                <h4 class="small font-weight-bold">Verduras <span class="float-right">10%</span>
                                 </h4>
                                 <div class="progress mb-4">
-                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80"
+                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="10"
                                          class="progress-bar bg-info"
-                                         role="progressbar" style="width: 80%"></div>
+                                         role="progressbar" style="width: 10%"></div>
                                 </div>
-                                <h4 class="small font-weight-bold">Account Setup <span
-                                        class="float-right">Complete!</span></h4>
+                                <h4 class="small font-weight-bold">Legumbres <span
+                                        class="float-right">30%</span></h4>
                                 <div class="progress">
-                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="100"
+                                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="30"
                                          class="progress-bar bg-success"
-                                         role="progressbar" style="width: 100%"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Color System -->
-                        <div class="row">
-                            <div class="col-lg-6 mb-4">
-                                <div class="card bg-primary text-white shadow">
-                                    <div class="card-body">
-                                        Primary
-                                        <div class="text-white-50 small">#4e73df</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="card bg-success text-white shadow">
-                                    <div class="card-body">
-                                        Success
-                                        <div class="text-white-50 small">#1cc88a</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="card bg-info text-white shadow">
-                                    <div class="card-body">
-                                        Info
-                                        <div class="text-white-50 small">#36b9cc</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="card bg-warning text-white shadow">
-                                    <div class="card-body">
-                                        Warning
-                                        <div class="text-white-50 small">#f6c23e</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="card bg-danger text-white shadow">
-                                    <div class="card-body">
-                                        Danger
-                                        <div class="text-white-50 small">#e74a3b</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="card bg-secondary text-white shadow">
-                                    <div class="card-body">
-                                        Secondary
-                                        <div class="text-white-50 small">#858796</div>
-                                    </div>
+                                         role="progressbar" style="width: 30%"></div>
                                 </div>
                             </div>
                         </div>
@@ -650,41 +469,27 @@
                         <!-- Illustrations -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Sugerencia: Tallarines con salmón</h6>
                             </div>
                             <div class="card-body">
                                 <div class="text-center">
-                                    <img alt="" class="img-fluid px-3 px-sm-4 mt-3 mb-4"
-                                         src="img/undraw_posting_photo.svg"
+                                    <img alt="Tallarines con salmón" class="img-fluid px-3 px-sm-4 mt-3 mb-4"
+                                         src="https://okdiario.com/img/recetas/2017/07/16/pasta-con-salmon-2.jpg"
                                          style="width: 25rem;">
                                 </div>
-                                <p>Add some quality, svg illustrations to your project courtesy of <a
-                                        href="https://undraw.co/"
-                                        rel="nofollow" target="_blank">unDraw</a>,
-                                    a constantly updated collection of beautiful svg images that you can use completely
-                                    free and without
-                                    attribution!</p>
-                                <a href="https://undraw.co/" rel="nofollow" target="_blank">Browse Illustrations on
-                                    unDraw &rarr;</a>
+                                <ul>
+                                    <li>400 g de Tagliatelle Garofalo</li>
+                                    <li>3 rodajas de salmón fresco (el corte de aproximadamente 2 cm de ancho)</li>
+                                    <li>250 ml de nata para cocinar</li>
+                                    <li>1 cucharadita de eneldo picado</li>
+                                    <li>Sal y pimienta negra recién molida (al gusto de cada casa)</li>
+                                    <li>2 dientes de ajo</li>
+                                    <li>Agua abundante para cocer la pasta</li>
+                                    <li>4 cucharadas de aceite de oliva virgen extra</li>
+                                </ul>
                             </div>
                         </div>
 
-                        <!-- Approach -->
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
-                            </div>
-                            <div class="card-body">
-                                <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS
-                                    bloat and poor
-                                    page performance. Custom CSS classes are used to create custom components and custom
-                                    utility
-                                    classes.</p>
-                                <p class="mb-0">Before working with this theme, you should become familiar with the
-                                    Bootstrap framework,
-                                    especially the utility classes.</p>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
@@ -699,7 +504,7 @@
         <footer class="sticky-footer bg-white">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
-                    <span>Copyright &copy; Your Website 2019</span>
+                    <span>Copyright &copy; Foodtrack 2020</span>
                 </div>
             </div>
         </footer>
@@ -722,15 +527,15 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <h5 class="modal-title" id="exampleModalLabel">¿Ya te vas?</h5>
                 <button aria-label="Close" class="close" data-dismiss="modal" type="button">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-body">Haz clic en salir para cerrar sesión.</div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" data-dismiss="modal" type="button">Cancel</button>
-                <a class="btn btn-primary">Logout</a>
+                <button class="btn btn-secondary" data-dismiss="modal" type="button">Volver</button>
+                <button class="btn btn-primary shadow-sm">Salir</button>
             </div>
         </div>
     </div>
